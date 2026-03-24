@@ -130,7 +130,6 @@ imshow(fishBW)
 <img width="464" height="353" alt="image" src="https://github.com/user-attachments/assets/776fe5f0-9732-404e-acc8-5939cb922cde" />
 <img width="456" height="346" alt="image" src="https://github.com/user-attachments/assets/e8185ea6-c58f-4e96-985b-e17ffd1a88e4" />
 
-
 | After `imopen` | Protruding pixels removed |
 <img width="455" height="340" alt="image" src="https://github.com/user-attachments/assets/51d964ed-71e7-4744-858e-63377cfd9120" />
 
