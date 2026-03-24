@@ -115,40 +115,18 @@ imshow(fishBW)
 > | `imclose` | Dilation → Erosion | Fills small gaps, smooths inner boundary |
 
 ---
-
 ## 📊 Visual Results
 
-| Stage | Description |
-|---|---|
-| Original + Initial Binary | Raw image paired with first binarization result |
-<img width="526" height="209" alt="image" src="https://github.com/user-attachments/assets/66758da2-5a41-43aa-9580-f556f4b56f03" />
+| Stage | Description | Result |
+|---|---|---|
+| Preprocessing | Raw image + initial binary mask | <img src="https://github.com/user-attachments/assets/66758da2-5a41-43aa-9580-f556f4b56f03" width="300"/> |
+| Task 1 | After `imcomplement` — fish becomes white foreground | <img src="https://github.com/user-attachments/assets/be6d08f0-6c2a-4a8c-a2e4-4ba39a169a5a" width="300"/> |
+| Task 2a | After `imfill` — holes filled | <img src="https://github.com/user-attachments/assets/776fe5f0-9732-404e-acc8-5939cb922cde" width="300"/> |
+| Task 2b | After `bwareafilt` — fish isolated | <img src="https://github.com/user-attachments/assets/e8185ea6-c58f-4e96-985b-e17ffd1a88e4" width="300"/> |
+| Task 3 | After `imopen` — protrusions removed | <img src="https://github.com/user-attachments/assets/51d964ed-71e7-4744-858e-63377cfd9120" width="300"/> |
+| Task 4 | After `imclose` — edges smoothed | <img src="https://github.com/user-attachments/assets/7f9c9cbe-2c1f-4369-8a2b-009a01528ee2" width="300"/> |
 
-
-
-After `imcomplement` | Fish becomes white foreground
-<img width="454" height="349" alt="image" src="https://github.com/user-attachments/assets/be6d08f0-6c2a-4a8c-a2e4-4ba39a169a5a" />
-
-
-
-
-After `imfill` + `bwareafilt` | Solid fish mask, noise removed
-<img width="464" height="353" alt="image" src="https://github.com/user-attachments/assets/776fe5f0-9732-404e-acc8-5939cb922cde" />
-<img width="456" height="346" alt="image" src="https://github.com/user-attachments/assets/e8185ea6-c58f-4e96-985b-e17ffd1a88e4" />
-
-
-
-
-After `imopen` | Protruding pixels removed
-<img width="455" height="340" alt="image" src="https://github.com/user-attachments/assets/51d964ed-71e7-4744-858e-63377cfd9120" />
-
-
-
-
-After `imclose` | Edges smoothed, final clean mask
-<img width="454" height="343" alt="image" src="https://github.com/user-attachments/assets/7f9c9cbe-2c1f-4369-8a2b-009a01528ee2" />
-
-
-
+```
 ## 📁 File Structure
 
 ```
