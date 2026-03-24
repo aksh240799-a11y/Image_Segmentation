@@ -138,7 +138,7 @@ imshow(fishBW)
 
 ## 🎓 Course Reference
 
-- **Platform:** MathWorks MATLAB OnRamp / Image Processing Track  
+- **Platform:** MathWorks MATLAB / Image Processing & Computer Vision Track  
 - **Course:** *Postprocessing to Improve Segmentation*  
 
 
