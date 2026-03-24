@@ -140,7 +140,7 @@ imshow(fishBW)
 
 - **Platform:** MathWorks MATLAB OnRamp / Image Processing Track  
 - **Course:** *Postprocessing to Improve Segmentation*  
-- **Topic:** Binary image postprocessing using morphological operations
+
 
 ---
 
@@ -148,4 +148,4 @@ imshow(fishBW)
 
 **Akshaya Ananthakrishnan**  
 MATLAB Certified | Image Processing Enthusiast
-<img width="886" height="570" alt="image" src="https://github.com/user-attachments/assets/a3f3a404-475a-4cfb-876c-e819f048f6aa" />
+<img width="840" height="593" alt="Certificate" src="https://github.com/user-attachments/assets/c5657bc1-6434-42b2-b45c-48a1fa2505f2">
