@@ -148,4 +148,5 @@ imshow(fishBW)
 
 **Akshaya Ananthakrishnan**  
 MATLAB Certified | Image Processing Enthusiast
-<img width="840" height="593" alt="image" src="https://github.com/user-attachments/assets/e665c2af-0eba-4571-8baf-b772852c8fbd" />
+<img width="840" height="593" alt="image" src="https://github.com/user-attachments/assets/c5657bc1-6434-42b2-b45c-48a1fa2505f2" />
+
